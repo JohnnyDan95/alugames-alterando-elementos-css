@@ -24,5 +24,14 @@ function alterarStatus(id) {
         button.innerHTML = 'Devolver';
 
     }
-    
+
+    quantidadeDeJogosAlugados();
+
+}
+
+function quantidadeDeJogosAlugados(){
+
+    let jogosAlugados = document.querySelectorAll('.dashboard__item__img--rented').length;
+    console.log(jogosAlugados);
+
 }
